@@ -27,7 +27,3 @@ if __name__ == "__main__":
         print("Writing POS indices...")
         for index, pos in enumerate(pos_list): 
             pos_file.write("{}\t{}\n".format(pos, index))
-        
-        
-
-
